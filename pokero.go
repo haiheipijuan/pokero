@@ -1,11 +1,7 @@
 package main
 
-import (
-	"github.com/xiaonanln/goworld"
-	"github.com/xiaonanln/goworld/engine/gwlog"
-)
+import "log"
 
 func main() {
-	gwlog.Infof("Hello world")
-	goworld.Run()
+	log.Print("pokero")
 }
