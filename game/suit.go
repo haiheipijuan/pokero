@@ -10,8 +10,8 @@ const (
 	Spades
 )
 
-var suitsStr = []rune{'\u2660', '\u2663', '\u2665', '\u2660'}
+var suitsStr = []string{"♦", "♣", "♥", "♠"}
 
 func (s Suit) String() string {
-	return string(suitsStr[s])
+	return suitsStr[s]
 }
