@@ -1,4 +1,4 @@
-package lib
+package game
 
 // represents a single playing card.
 type Card int

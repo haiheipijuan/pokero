@@ -1,4 +1,4 @@
-package lib
+package game
 
 // represents the suit of a card.
 type Suit int

@@ -1,4 +1,4 @@
-package lib
+package game
 
 // represents the rank of a card.
 type Rank int
